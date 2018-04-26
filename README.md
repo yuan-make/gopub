@@ -1,3 +1,7 @@
+
+- subsystem request failed  发布遇到这个问题，请修改目标机器的  /etc/ssh/sshd_config 
+ ` Subsystem       sftp    /usr/libexec/openssh/sftp-server`  重启sshd
+
 gopub（基于vue.js element框架+golang beego框架开发）是一个基于运维场景设计的企业级运维发布系统。配置简单、功能完善、界面流畅、开箱即用！支持git、jenkins版本管理，支持各种web代码发布，一键完成Golang,nodejs,PHP，Python，JAVA等代码的发布、回滚操作。
 
 我们运维团队前期使用walle web部署系统进行发布操作,在此也感谢walle团队贡献的优秀开源项目.walle的web体验比较好,本次开源的gopub前台完全模仿walle前台,使用vue.js element框架重写.
